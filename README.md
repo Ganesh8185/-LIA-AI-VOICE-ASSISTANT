@@ -1,6 +1,6 @@
 # LIA AI VOICE ASSISTANT
 In this project, I have created AI Virtual Assistant ,voice recognition machine. and  machine will respond to us and will also perform the task.
-## IMPORTANT MOUDULES AND LIBRARIES :
+## MOUDULES AND LIBRARIES :
 ### SpeechRecognition:
 It’s one of the most straightforward Python libraries for recognizing and processing human speech. It would be responsible for recognizing the speech/verbal commands of the assistant’s user and identifying the input words/input phrases, i.e., the words that will trigger a response from the assistant.
 ### pyttsx3:
@@ -31,7 +31,7 @@ pip install pyjokes
 pip install requests
 
 When running this code on PyCharm, you might encounter an error regarding PyAudio and will have to download that library. And if the usual “pip install PyAudio” command doesn’t work, you will have to go with a workaround. First, install Pipwin and then use the command “Pipwin install PyAudio.”
-# Necessary imports:
+# imports:
 import speech_recognition as sr
 
 import pyttsx3
